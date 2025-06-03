@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/sunishptpm/nrj/',
+  base: 'https://sunishptpm.github.io/nrj/',
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
